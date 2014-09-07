@@ -269,7 +269,7 @@
             // menuSetEnv
             // 
             this.menuSetEnv.Name = "menuSetEnv";
-            this.menuSetEnv.Size = new System.Drawing.Size(142, 22);
+            this.menuSetEnv.Size = new System.Drawing.Size(152, 22);
             this.menuSetEnv.Text = "環境設定(&S)";
             this.menuSetEnv.Click += new System.EventHandler(this.menuSetEnv_Click);
             // 
@@ -460,7 +460,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             this.splitContainer1.Size = new System.Drawing.Size(784, 484);
-            this.splitContainer1.SplitterDistance = 157;
+            this.splitContainer1.SplitterDistance = 156;
             this.splitContainer1.TabIndex = 3;
             // 
             // treeMailBoxFolder
@@ -492,7 +492,7 @@
             this.treeMailBoxFolder.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode4});
             this.treeMailBoxFolder.SelectedImageIndex = 0;
-            this.treeMailBoxFolder.Size = new System.Drawing.Size(157, 484);
+            this.treeMailBoxFolder.Size = new System.Drawing.Size(156, 484);
             this.treeMailBoxFolder.TabIndex = 0;
             this.treeMailBoxFolder.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeMailBoxFolder_AfterSelect);
             // 
@@ -535,8 +535,8 @@
             // 
             this.splitContainer2.Panel2.Controls.Add(this.textBody);
             this.splitContainer2.Panel2.Controls.Add(this.browserBody);
-            this.splitContainer2.Size = new System.Drawing.Size(623, 484);
-            this.splitContainer2.SplitterDistance = 181;
+            this.splitContainer2.Size = new System.Drawing.Size(624, 484);
+            this.splitContainer2.SplitterDistance = 179;
             this.splitContainer2.TabIndex = 0;
             // 
             // listMail
@@ -552,38 +552,37 @@
             this.listMail.HideSelection = false;
             this.listMail.Location = new System.Drawing.Point(0, 0);
             this.listMail.Name = "listMail";
-            this.listMail.Size = new System.Drawing.Size(623, 181);
+            this.listMail.Size = new System.Drawing.Size(624, 179);
             this.listMail.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.listMail.TabIndex = 1;
             this.listMail.UseCompatibleStateImageBehavior = false;
             this.listMail.View = System.Windows.Forms.View.Details;
             this.listMail.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listMail_ColumnClick);
-            this.listMail.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.listMail_ItemSelectionChanged);
             this.listMail.Click += new System.EventHandler(this.listMail_Click);
             this.listMail.DoubleClick += new System.EventHandler(this.listMail_DoubleClick);
             // 
             // columnFromTo
             // 
             this.columnFromTo.Tag = "string";
-            this.columnFromTo.Text = "差出人";
+            this.columnFromTo.Text = "名前";
             this.columnFromTo.Width = 174;
             // 
             // columnSubject
             // 
             this.columnSubject.Tag = "string";
-            this.columnSubject.Text = "件名";
+            this.columnSubject.Text = "メールアドレス";
             this.columnSubject.Width = 188;
             // 
             // columnDate
             // 
             this.columnDate.Tag = "date";
-            this.columnDate.Text = "受信時刻";
+            this.columnDate.Text = "最終データ更新日";
             this.columnDate.Width = 150;
             // 
             // columnSize
             // 
             this.columnSize.Tag = "num";
-            this.columnSize.Text = "サイズ";
+            this.columnSize.Text = "データサイズ";
             this.columnSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.columnSize.Width = 80;
             // 
@@ -661,7 +660,7 @@
             this.textBody.Multiline = true;
             this.textBody.Name = "textBody";
             this.textBody.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBody.Size = new System.Drawing.Size(623, 299);
+            this.textBody.Size = new System.Drawing.Size(624, 301);
             this.textBody.TabIndex = 2;
             // 
             // browserBody
@@ -672,7 +671,7 @@
             this.browserBody.Location = new System.Drawing.Point(0, 0);
             this.browserBody.MinimumSize = new System.Drawing.Size(20, 20);
             this.browserBody.Name = "browserBody";
-            this.browserBody.Size = new System.Drawing.Size(623, 299);
+            this.browserBody.Size = new System.Drawing.Size(624, 301);
             this.browserBody.TabIndex = 3;
             this.browserBody.TabStop = false;
             this.browserBody.Visible = false;
